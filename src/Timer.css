@@ -1,3 +1,21 @@
+.Timer-container {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18vw;
+  transition: background 50ms ease-in-out, color 50ms ease-in-out, text-shadow 50ms ease-in-out;
+}
+
+.is-victory {
+  background: #35c9dd;
+  color: white;
+  text-shadow: 0 0 50px white;
+}
+
 .Timer-number {
-  font-family: 'GetSchwifty'
+  font-family: 'GetSchwifty';
 }
